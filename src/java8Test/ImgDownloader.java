@@ -28,7 +28,7 @@ public class ImgDownloader {
 				e.printStackTrace();
 			}
 		profile.setPreference("browser.download.folderList", 2);
-		profile.setPreference( "browser.download.dir", "C:\\images2");
+		profile.setPreference( "browser.download.dir", "C:\\images\\news");
 		WebDriver driver = new FirefoxDriver(profile);
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		
